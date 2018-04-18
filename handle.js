@@ -31,7 +31,7 @@
         alert('if 1');
         document.getElementById('relay').innerHTML="<button type='button' class='btn btn-lg btn-block btn-outline-danger'>OFF</button>";
       }else if (message === '0'){
-        document.getElementById('relay').innerHTML="<button type='button' class='btn btn-lg btn-block btn-outline-sccess'>ON</button>";
+        document.getElementById('relay').innerHTML="<button type='button' class='btn btn-lg btn-block btn-outline-success'>ON</button>";
     
       }
     }
